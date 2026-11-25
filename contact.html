@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Navaneetha M about projects, internships, collaboration, and professional opportunities.">
+  <meta name="author" content="Navaneetha M">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#101827">
+  <title>Contact | Navaneetha M Portfolio</title>
+  <link rel="canonical" href="https://your-domain.example/contact.html">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Navaneetha M, home">NM<span>.</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container page-content">
+    <header class="page-heading">
+      <p class="eyebrow">SAY HELLO</p>
+      <h1>Contact me</h1>
+      <p class="lead">Use the accessible form below to start a conversation about projects, learning, or opportunities.</p>
+    </header>
+
+    <section class="section contact-layout" aria-labelledby="form-title">
+      <div class="panel">
+        <h2 id="form-title">Send a message</h2>
+        <p id="form-help" class="small-note">All fields marked “required” must be completed. After validation, your default email application will open with your message.</p>
+        <form id="contact-form" aria-describedby="form-help">
+          <div class="form-field">
+            <label for="name">Your name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="name-hint">
+            <small id="name-hint">Enter at least 2 characters.</small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email address <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject <span aria-hidden="true">*</span></label>
+            <input id="subject" name="subject" type="text" required minlength="3">
+          </div>
+          <div class="form-field">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="6" required minlength="10" aria-describedby="message-hint"></textarea>
+            <small id="message-hint">Please enter at least 10 characters.</small>
+          </div>
+          <button class="button" type="submit">Prepare email</button>
+          <p id="form-status" class="status-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <aside class="panel contact-aside" aria-labelledby="connect-title">
+        <h2 id="connect-title">Connect online</h2>
+        <p><strong>GitHub</strong><br><a href="https://github.com/navaneetha-max" target="_blank" rel="noopener noreferrer">github.com/navaneetha-max</a></p>
+        <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Find me on LinkedIn</a></p>
+        <p class="small-note">Replace the LinkedIn link with your exact profile URL before publishing.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-current-year>2026</span> Navaneetha M. All rights reserved.</p>
+      <a href="index.html">Back to home</a>
+    </div>
+  </footer>
+</body>
+</html>
